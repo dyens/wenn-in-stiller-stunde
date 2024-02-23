@@ -25,10 +25,12 @@ backVoice = {
 
 
 \header {
-  title = "Title"
-  composer = "Composer"
-  arranger = "Arranger"
+  title = "Wenn in stiller Stunde"
+  subtitle = "Pommernlied"
+  arranger = "Weise: Karl Groos"
+  composer = "Worte: Adolf Pompe"
   tagline = "Библиотека Adeptus Chorus"
+  piece = "Für vierstimmigen gemischten Chor"
 }
 
 
@@ -61,7 +63,7 @@ backVoice = {
     } <<
       \new Voice = "S" << { \soprano }  >>
     >>
-    \new Lyrics \lyricsto "S" { \Lyric }
+    \new Lyrics \lyricsto "S" { \LyricSoprano }
 
     \new Staff = "A" \with {
      instrumentName = "A"
@@ -69,7 +71,7 @@ backVoice = {
     } <<
       \new Voice = "A" << { \alt }  >>
     >>
-    \new Lyrics \lyricsto "A" { \Lyric }
+    \new Lyrics \lyricsto "A" { \LyricAlt }
 
 
     \new Staff = "T" \with {
@@ -78,7 +80,7 @@ backVoice = {
     } <<
       \new Voice = "T" << { \tenor }  >>
     >>
-    \new Lyrics \lyricsto "T" { \Lyric }
+    \new Lyrics \lyricsto "T" { \LyricTenor }
 
     \new Staff = "B" \with {
      instrumentName = "B"
@@ -86,10 +88,7 @@ backVoice = {
     } <<
       \new Voice = "B" << {\bass}  >>
     >>
-    \new Lyrics \lyricsto "B" { \Lyric }
-
-
-
+    \new Lyrics \lyricsto "B" { \LyricBass }
   >>
   }
 }
