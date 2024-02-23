@@ -30,7 +30,6 @@ backVoice = {
   arranger = "Weise: Karl Groos"
   composer = "Worte: Adolf Pompe"
   tagline = "Библиотека Adeptus Chorus (Copyright © 2024 by CPDL)"
-  piece = "Für vierstimmigen gemischten Chor"
 }
 
 \license {
